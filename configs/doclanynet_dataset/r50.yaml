@@ -28,6 +28,8 @@ MODEL:
 DATASETS:
   TRAIN: ("doclaynet_train",)
   TEST: ("doclaynet_val",)
+ 
+OUTPUT_DIR: "/kaggle/working/"
 
 SOLVER:
   IMS_PER_BATCH: 48
