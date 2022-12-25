@@ -80,7 +80,7 @@ INPUT:
 SOLVER:
   # AMP:
   # ENABLED: true
-  IMS_PER_BATCH: 3 # 1/5 bs than YOLOX
+  IMS_PER_BATCH: 1 # 1/5 bs than YOLOX
   # it can be 0.016 maybe
   BASE_LR: 0.0009
   STEPS: (60000, 80000)
