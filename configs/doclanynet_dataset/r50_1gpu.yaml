@@ -44,4 +44,4 @@ OUTPUT_DIR: "/kaggle/working/"
 
 DATALOADER:
   # proposals are part of the dataset_dicts, and take a lot of RAM
-  NUM_WORKERS: 2
+  NUM_WORKERS: 5
